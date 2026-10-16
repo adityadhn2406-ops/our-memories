@@ -98,7 +98,7 @@ export default function App() {
 
   const LockScreen = () => (
     <div className="min-h-screen bg-black flex flex-col items-center justify-center text-white p-4">
-      <h1 className="text-6xl font-black text-red-600 tracking-widest mb-12">US</h1>
+      <h1 className="text-6xl font-black text-red-600 tracking-widest mb-12">SIYAAA</h1>
       <form onSubmit={handleLogin} className="w-full max-w-sm flex flex-col gap-4 bg-zinc-900 p-8 rounded-lg border border-zinc-800">
         <h2 className="text-xl font-semibold text-center mb-4">Enter Access PIN</h2>
         <input 
@@ -126,7 +126,7 @@ export default function App() {
       <div className="min-h-screen bg-black text-white overflow-x-hidden font-sans pb-20">
         {/* Navbar */}
         <nav className="fixed top-0 w-full z-50 bg-gradient-to-b from-black/80 to-transparent p-4 flex justify-between items-center transition-all">
-          <div className="text-4xl font-black text-red-600 tracking-widest cursor-pointer">US</div>
+          <div className="text-4xl font-black text-red-600 tracking-widest cursor-pointer">SIYAAA</div>
           <button 
             onClick={() => setView('locked')} 
             className="text-zinc-300 hover:text-white transition"

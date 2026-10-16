@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>US — Our Memories</title>
+  <title>SIYAAA — Our Memories</title>
   <meta name="description" content="A private collection of our favorite memories, captured and kept forever." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -117,13 +117,14 @@
     }
 
     .lock-logo {
-      font-size: clamp(4rem, 12vw, 7rem);
+      font-size: clamp(3rem, 9vw, 6rem);
       font-weight: 900;
       color: #dc2626;
-      letter-spacing: .25em;
+      letter-spacing: .2em;
       margin-bottom: 2.5rem;
       text-shadow: 0 0 40px rgba(220, 38, 38, .4);
       animation: pulseRing 2.5s infinite;
+      text-align: center;
     }
 
     .lock-form {
@@ -219,10 +220,10 @@
     }
 
     .nav-logo {
-      font-size: 2rem;
+      font-size: 1.7rem;
       font-weight: 900;
       color: #dc2626;
-      letter-spacing: .3em;
+      letter-spacing: .2em;
       cursor: pointer;
     }
 
@@ -1733,7 +1734,7 @@
     function LockScreen({ enteredPin, setEnteredPin, pinError, handleLogin }) {
       return (
         <div className="lock-screen fade-in">
-          <div className="lock-logo">US</div>
+          <div className="lock-logo">SIYAAA</div>
           <form onSubmit={handleLogin} className="lock-form">
             <h2>Enter Access PIN</h2>
             <input
@@ -1763,7 +1764,7 @@
       return (
         <div style={{ minHeight: '100vh', background: '#000', color: '#fff', overflowX: 'hidden', paddingBottom: '4rem' }}>
           <nav className="navbar">
-            <div className="nav-logo">US</div>
+            <div className="nav-logo">SIYAAA</div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
               <button className="btn-action-small" onClick={() => setView('admin')} title="Open Studio Admin">
                 <SettingsIcon size={16} /> Studio
